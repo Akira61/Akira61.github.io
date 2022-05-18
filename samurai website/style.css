@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    font-family: 'Press Start 2P', cursive;
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: rgb(99, 0, 129); 
+    width:100%;
+    position: fixed; /*To let the header show when we scroll down*/
+    z-index: 100;
+    display:flex;
+    justify-content: space-between;/* put a space between the <a> and the <nav> "child of the header"*/
+    align-items: center;
+    padding:10px 150px;
+}
+
+.logo{
+    text-decoration: none;/* remove the underline*/
+    color:gold;
+    text-transform:uppercase;
+    font-weight: 500;
+    font-size: 1.8em;
+}
+
+.navigation a{
+    color:deeppink ;
+    text-decoration:none;
+    font-size: 1.1em;
+    font-weight: 300;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color:gold;
+}
+
+section{
+    padding:100px 100px;
+}
+
+.main{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    
+    align-items: center;
+    background:url("gojoo.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.main h2{
+    color:#fff;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.main span{
+    color:gold;
+    font-size: 3em;
+    font-weight: 400;
+}
+
